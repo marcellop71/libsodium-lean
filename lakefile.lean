@@ -11,9 +11,6 @@ package libsodiumLean where
     "-lzlog"
   ]
 
-require zlogLean from git
-  "git@github.com:marcellop71/zlog-lean.git" @ "main"
-
 @[default_target]
 lean_lib LibsodiumLean
 
@@ -34,3 +31,7 @@ extern_lib libsodium_shim pkg := do
 
 lean_exe examples where
   root := `Examples.Main
+
+require zlogLean from git
+  "git@github.com:marcellop71/zlog-lean.git" @ "main"
+
