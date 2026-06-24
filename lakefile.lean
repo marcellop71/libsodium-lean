@@ -33,5 +33,5 @@ lean_exe examples where
   root := `Examples.Main
 
 require zlogLean from git
-  "git@github.com:marcellop71/zlog-lean.git" @ "v4.29.0"
+  "git@github.com:marcellop71/zlog-lean.git" @ "v4.31.0"
 
