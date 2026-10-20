@@ -398,3 +398,8 @@ INFO [sodium] All examples completed successfully!
 3. **Never reuse nonces** with the same key
 4. **Use constant-time comparison** (`secureCompare`) when comparing secrets
 5. **Zero sensitive data** when done using `memzero`
+
+## License
+
+Copyright © 2026 Proofinity s.r.l. Licensed under the Apache License,
+Version 2.0: see [LICENSE](LICENSE) and [NOTICE](NOTICE).
